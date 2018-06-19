@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  .d100-cardfont {
+    font-size: 1.1em;
+  }
+
+  .d100-category {
+    color: lightslategray;
+  }
+
+  .d100-value {
+    color: darkslategrey;
+    font-weight: bold;
+  }
+
+  .d100-marker {
+    padding: 0.1em 0.2em; 
+    font-weight: bold;
+  }
+
+  .d100-action, .d100-test {
+    font-weight: bold;
+  }
+
+  .d100-skillcheck {
+    font-style: italic
+  }
